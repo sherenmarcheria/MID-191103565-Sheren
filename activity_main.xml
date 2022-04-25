@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profil"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="Sheren Marcheria"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sheren110111@gmail.com"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="normal|bold"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sheren Marcheria"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="normal|bold"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="191103565"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="normal|bold"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat: Komp Pondok Agung Utama G.10"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="normal|bold"
+        android:padding="5dp"/>
+
+</LinearLayout>

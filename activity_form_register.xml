@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormRegister">
+
+    <TextView
+        android:id="@+id/FormRegister"
+        android:text="Form Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#808080"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="normal|bold"
+        />
+
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Masukkan Username"
+        android:inputType="textPersonName"
+        android:layout_below="@id/FormRegister"
+        android:layout_marginTop="35dp"
+        />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Masukkan Email"
+        android:layout_below="@id/editUsername"
+        android:layout_marginStart="-2dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="5dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Masukkan Password"
+        android:inputType="textPassword"
+        android:layout_below="@id/editEmail"
+        />
+
+    <Button
+        android:id="@+id/buttonDaftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        android:layout_below="@+id/editPassword"
+        android:layout_centerHorizontal="true"
+        android:background="#808080"
+        android:textAlignment="center"
+        />
+
+</>
